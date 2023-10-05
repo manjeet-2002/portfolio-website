@@ -37,7 +37,7 @@ export default function Contact() {
   return (
     <section id="contact" className="ml-10 mr-10 lg:ml-40 lg:mr-40 mb-20">
 
-      <h2 className="text-2xl text-white lg:text-4xl font-extrabold text-center mt-16 mb-10">Let's Connect</h2>
+      <h2 className="text-2xl text-white lg:text-4xl font-extrabold text-center mt-16 mb-10">Let&apos;s Connect</h2>
 
       <form onSubmit={onSubmit} className="flex flex-col gap-8">
           <div>

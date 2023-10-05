@@ -14,7 +14,7 @@ export default function About() {
         <h2 className="text-2xl lg:text-4xl font-extrabold text-center mb-5">What I do</h2>
         <ul className="text-slate-300 text-lg lg:text-xl list-disc pr-4 lg:pr-0">
           <li className="mb-5 lg:mb-10">I Develop Full-Stack applications using MERN Stack.</li>
-          <li className="mb-5 lg:mb-10">I'm proficient in creating dynamic and interactive web applications using Next.js, React, Bootstrap and Tailwind, ensuring seamless user experiences.</li>
+          <li className="mb-5 lg:mb-10">I&apos;m proficient in creating dynamic and interactive web applications using Next.js, React, Bootstrap and Tailwind, ensuring seamless user experiences.</li>
           <li>I seamlessly integrate RESTful APIs to enhance the functionality and connectivity of web applications.</li>
         </ul>
       </div>

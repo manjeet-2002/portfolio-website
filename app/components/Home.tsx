@@ -10,9 +10,9 @@ export default function HomeSection() {
                 Hello,
             </h1>
             <h1 className="mb-4 text-white text-3xl lg:text-5xl font-extrabold">
-                I'm <TextAnime/>
+                I&apos;m <TextAnime/>
             </h1>
-            <p className="text-[#ADB7BE] text-lg lg:text-xl">I'm a software developer based in Punjab, India. A passionate Full Stack Web Developer.</p>
+            <p className="text-[#ADB7BE] text-lg lg:text-xl">I&apos;m a software developer based in Punjab, India. A passionate Full Stack Web Developer.</p>
             <div>
                 <div className="flex flex-row justify-start items-center space-x-5 mt-8 mb-4">
                 <a href="https://drive.google.com/file/d/10FE0ka2PpkC5acgRlMMiEuYD-IPUUnfz/view?usp=sharing" target="_blank">
