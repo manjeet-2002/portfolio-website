@@ -20,10 +20,7 @@ export async function POST(req:Request){
         text: `${message} | Sent from: ${email}`,
         html: `<div>${message}</div><p>Sent from: ${email}</p>`
       }
-      await transporter.sendMail(mailData,function(err:any,info:any){
-        if(err) console.log(err)
-        else console.log(info)
-      });
+      await transporter.sendMail(mailData);
       
 
     return Response.json({message:"success"});
