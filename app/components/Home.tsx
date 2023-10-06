@@ -15,7 +15,7 @@ export default function HomeSection() {
             <p className="text-[#ADB7BE] text-lg lg:text-xl">I&apos;m a software developer based in Punjab, India. A passionate Full Stack Web Developer.</p>
             <div>
                 <div className="flex flex-row justify-start items-center space-x-5 mt-8 mb-4">
-                <a href="https://drive.google.com/file/d/10FE0ka2PpkC5acgRlMMiEuYD-IPUUnfz/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/12EeXNCWZjEDAqXSTEb8uWvdOFr6qktnw/view?usp=sharing" target="_blank">
                 <button type="button" data-te-ripple-init className="px-4 py-2 rounded-xl duration-200 mr-4 text-white bg-violet-700 hover:bg-rose-500">
                     SEE MY RESUME
                 </button>
@@ -32,7 +32,7 @@ export default function HomeSection() {
                     </svg>
                     </a>
                     {/* linkedin */}
-                    <a href="https://www.linkedin.com/in/manjeet-020b98201/" target="_blank">
+                    <a href="https://www.linkedin.com/in/manjeetkamboj" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 hover:text-sky-500 text-slate-400 duration-200"
