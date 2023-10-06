@@ -23,7 +23,7 @@ export default function Contact() {
           'content-type': 'application/json',
         },
       })
-      console.log(res);
+  
       if (res.status === 200) {
         setSubmitted(true)
       }
