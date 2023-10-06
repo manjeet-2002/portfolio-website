@@ -20,7 +20,7 @@ export async function POST(req:Request){
         text: `${message} | Sent from: ${email}`,
         html: `<div>${message}</div><p>Sent from: ${email}</p>`
       }
-      await transporter.sendMail(mailData);
+      transporter.sendMail(mailData);
       
 
     return Response.json({message:"success"});
