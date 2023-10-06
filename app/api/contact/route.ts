@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 
 export async function POST(req:Request){
     const {name,email,message}= await req.json();
-    console.log(name, email, message);
+  
 
     const transporter = nodemailer.createTransport({
         port: 465,
@@ -20,7 +20,7 @@ export async function POST(req:Request){
         text: `${message} | Sent from: ${email}`,
         html: `<div>${message}</div><p>Sent from: ${email}</p>`
       }
-      const sendMessage = transporter.sendMail(mailData);
+      transporter.sendMail(mailData);
       
 
     return Response.json({message:"success"});
