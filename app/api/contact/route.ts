@@ -4,7 +4,7 @@ export async function POST(req:Request){
     const {name,email,message}= await req.json();
   
 
-    const transporter = nodemailer.createTransport({
+    const transporter = await nodemailer.createTransport({
         port: 465,
         host: "smtp.gmail.com",
         auth: {
@@ -20,7 +20,8 @@ export async function POST(req:Request){
         text: `${message} | Sent from: ${email}`,
         html: `<div>${message}</div><p>Sent from: ${email}</p>`
       }
-      transporter.sendMail(mailData);
+
+      await transporter.sendMail(mailData);
       
 
     return Response.json({message:"success"});
